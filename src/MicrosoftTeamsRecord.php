@@ -22,13 +22,13 @@ use Monolog\Formatter\FormatterInterface;
  */
 class MicrosoftTeamsRecord
 {
-    const COLOR_DANGER = '#E81123';
+    const COLOR_DANGER = 'E81123';
 
-    const COLOR_WARNING = '#FF8C00';
+    const COLOR_WARNING = 'FF8C00';
 
-    const COLOR_GOOD = '#498205';
+    const COLOR_GOOD = '498205';
 
-    const COLOR_DEFAULT = '#881798';
+    const COLOR_DEFAULT = '881798';
 
     /**
      * Title of the card
@@ -91,6 +91,7 @@ class MicrosoftTeamsRecord
         }
 
         $dataArray['text'] = $message;
+        $dataArray['themeColor'] = $this->getAttachmentColor($record['level']);
 
         return $dataArray;
     }
