@@ -1,0 +1,14 @@
+{
+    "name": "rspeekenbrink/monolog-microsoft-teams",
+    "description": "Monolog Handler for sending messages to Microsoft Teams using the Incoming Webhook connector",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rspeekenbrink\\MonologMicrosoftTeams\\": "src/"
+        }
+    }
+}
