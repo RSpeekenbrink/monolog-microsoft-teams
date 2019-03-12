@@ -91,7 +91,7 @@ class MicrosoftTeamsRecord
         }
 
         $dataArray['text'] = $message;
-        $dataArray['themeColor'] = $this->getAttachmentColor($record['level']);
+        $dataArray['themeColor'] = $this->getThemeColor($record['level']);
 
         return $dataArray;
     }
