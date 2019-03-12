@@ -1,6 +1,5 @@
 # Monolog Microsoft Teams
-![Package Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
-[![Packagist Version](https://img.shields.io/packagist/v/rspeekenbrink/monolog-microsoft-teams.svg)](https://packagist.org/packages/rspeekenbrink/monolog-microsoft-teams)
+[![Packagist Version](https://img.shields.io/github/tag/RSpeekenbrink/monolog-microsoft-teams.svg?label=Version)](https://packagist.org/packages/rspeekenbrink/monolog-microsoft-teams)
 
 A [Monolog](https://github.com/Seldaek/monolog) handler to send Microsoft Teams messages via the Incoming Webhook.
 
