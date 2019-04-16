@@ -35,7 +35,7 @@ class MicrosoftTeamsRecord
      * @var string|null
      */
     private $context;
-    
+
     /**
      * Title of the card
      * @var string|null

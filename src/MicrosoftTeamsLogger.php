@@ -24,6 +24,9 @@ class MicrosoftTeamsLogger extends Logger
     {
         parent::__construct('microsoft-teams-logger');
 
-        $this->pushHandler(new MicrosoftTeamsHandler($url, $title, $level, $bubble));
+        $handler = new MicrosoftTeamsHandler($url, $title, $level, $bubble);
+        $handler->setFormatter(new MicrosoftTeamsFormatter());
+
+        $this->pushHandler($handler);
     }
 }
