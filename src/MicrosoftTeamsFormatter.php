@@ -15,7 +15,7 @@ use Monolog\Logger;
 use Monolog\Formatter\LineFormatter;
 
 /**
- * Teams record utility helping to log to the webhook.
+ * Teams Formatter to make text more readable and add some make-up.
  *
  * @author Remco Speekenbrink <remco@speekkie.nl>
  * @see    https://docs.microsoft.com/en-us/outlook/actionable-messages/message-card-reference
