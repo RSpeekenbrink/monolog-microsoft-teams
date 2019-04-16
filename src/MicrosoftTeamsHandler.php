@@ -11,9 +11,9 @@
 
 namespace Rspeekenbrink\MonologMicrosoftTeams;
 
+use Monolog\Formatter\FormatterInterface;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Handler\Curl;
-use Monolog\Formatter\FormatterInterface;
 use Monolog\Logger;
 
 /**
@@ -50,8 +50,7 @@ class MicrosoftTeamsHandler extends AbstractProcessingHandler
         $this->webhookUrl = $webhookUrl;
 
         $this->teamsRecord = new MicrosoftTeamsRecord(
-            $title,
-            $this->formatter
+            $title
         );
     }
 

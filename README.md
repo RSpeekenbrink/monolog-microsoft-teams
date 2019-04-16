@@ -1,5 +1,5 @@
 # Monolog Microsoft Teams
-![Package Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
+![Package Version](https://img.shields.io/badge/Version-1.1.0-brightgreen.svg)
 [![Packagist Version](https://img.shields.io/packagist/v/rspeekenbrink/monolog-microsoft-teams.svg)](https://packagist.org/packages/rspeekenbrink/monolog-microsoft-teams)
 
 A [Monolog](https://github.com/Seldaek/monolog) handler to send Microsoft Teams messages via the Incoming Webhook.
@@ -86,9 +86,6 @@ Or add the teams channel to the default `stack` channel in `config/logging.php`:
     ],
 ],
 ```
-
-# TODO
-- Make compatible with Section Fields
 
 # License
 monolog-microsoft-teams is available under the MIT license. See the LICENSE file for more info.
